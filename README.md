@@ -37,7 +37,7 @@ These solutions helped me implement complex features efficiently, saving time an
              
                - MongoDB Atlas Configuration: I learned how to securely configure MongoDB Atlas using environment variables for sensitive information like database URI and credentials. This approach not only ensured a secure connection but also taught me how to manage cloud database connections efficiently.
                - JWT Authentication: Through the code snippets I copied, I gained a deep understanding of how to handle secure JWT-based user authentication. I learned the importance of signing tokens with a secret key, managing token expiration, and verifying tokens during each request to ensure user safety.
-              - Multer for File Uploads: Using Multer for file uploads taught me how to handle large file submissions efficiently and handle edge cases like file size limits and improper formats. I also understood the significance of validating files before processing them.
+               - Multer for File Uploads: Using Multer for file uploads taught me how to handle large file submissions efficiently and handle edge cases like file size limits and improper formats. I also understood the significance of validating files before processing them.
                - Real-time Video Streaming: Integrating video conferencing into the platform was a complex task. The solutions I found helped me understand how to manage third-party API calls, handle errors during live video sessions, and optimize the user experience for both instructors and students.
 
 **Question 3:** Function to parse any valid JSON string into a corresponding object, list, or map.
