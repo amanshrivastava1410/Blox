@@ -49,6 +49,7 @@ These solutions helped me implement complex features efficiently, saving time an
 **Question 5:** Banking - Simulating money transfer between two different banks.
 
 **1.** What are the issues in such a system?
+
 **Answer:** In a distributed banking system where money is transferred between different banks, there are various challenges:
 
                          - Network Latency and Connectivity Issues: The communication between the banks may suffer due to network failures, slow connections or server breakdowns which can delay transactions.
