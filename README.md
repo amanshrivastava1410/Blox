@@ -51,7 +51,7 @@ These solutions helped me implement complex features efficiently, saving time an
 **1.** What are the issues in such a system?
 **Answer:** In a distributed banking system where money is transferred between different banks, there are various challenges:
 
-                         - Network Latency anConnectivity Issues: The communication between the banks may suffer due to network failures, slow connections or server breakdowns which can delay transactions.
+                         - Network Latency and Connectivity Issues: The communication between the banks may suffer due to network failures, slow connections or server breakdowns which can delay transactions.
                          - Atomicity: Ensuring that the transfer is atomic is a crucial challenge. If only one operation succeeds, it would lead to inconsistencies and errors in the system.
                          - Data Integrity: Ensuring that the money is correctly transferred without being lost or duplicated is critical. Any inconsistencies in the data would cause financial errors.
                          - Security: Transferring money between accounts on different systems involves the risk of unauthorized access, hacking, and data breaches. Sensitive information like bank account details, passwords, and transaction amounts need to be encrypted to protect the privacy and security of users.
