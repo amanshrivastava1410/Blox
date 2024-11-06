@@ -54,6 +54,7 @@ Answer: In a distributed banking system where money is transferred between diffe
                          - Security: Transferring money between accounts on different systems involves the risk of unauthorized access, hacking, and data breaches. Sensitive information like bank account details, passwords, and transaction amounts need to be encrypted to protect the privacy and security of users.
 
 3. What can we do to mitigate some of the issues?
+
 Answer: To mitigate these issues, there are multiple strategies we can follow like Transaction Logs and Recovery Mechanism, Distributed Locking Mechanisms, Two-Phase Commits, Redundancy and Fault Tolerance and Encryption and Authentication. 
 
 ## Installation Instructions
