@@ -43,7 +43,8 @@ These solutions helped me implement complex features efficiently, saving time an
                - Real-time Video Streaming: Integrating video conferencing into the platform was a complex task. The solutions I found helped me understand how to manage third-party API calls, handle errors during live video sessions, and optimize the user experience for both instructors and students.
 
 **Question 3:** Function to parse any valid JSON string into a corresponding object, list, or map.
-Answer: Java code provides a utility class JsonParserUtility that can parse a valid JSON string into corresponding Java objects such as Map, List, or BigDecimal. The code ensures that integers and floating - point numbers have arbitrary precision using BigDecimal.
+
+**Answer:** Java code provides a utility class JsonParserUtility that can parse a valid JSON string into corresponding Java objects such as Map, List, or BigDecimal. The code ensures that integers and floating - point numbers have arbitrary precision using BigDecimal.
 
 **Question 5:** Banking - Simulating money transfer between two different banks.
 
@@ -55,7 +56,7 @@ Answer: Java code provides a utility class JsonParserUtility that can parse a va
                          - Data Integrity: Ensuring that the money is correctly transferred without being lost or duplicated is critical. Any inconsistencies in the data would cause financial errors.
                          - Security: Transferring money between accounts on different systems involves the risk of unauthorized access, hacking, and data breaches. Sensitive information like bank account details, passwords, and transaction amounts need to be encrypted to protect the privacy and security of users.
 
-**3.** What can we do to mitigate some of the issues?
+**2.** What can we do to mitigate some of the issues?
 
 **Answer:** To mitigate these issues, there are multiple strategies we can follow like Transaction Logs and Recovery Mechanism, Distributed Locking Mechanisms, Two-Phase Commits, Redundancy and Fault Tolerance and Encryption and Authentication. 
 
