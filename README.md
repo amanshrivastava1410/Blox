@@ -1,6 +1,6 @@
 # Blox Assignment
 
-This repository contains solutions for Blox Assignment.
+This repository contains solutions for the Blox Assignment. It includes implementations for various programming problems, along with explanations and answers to mandatory questions.
 
 I have solved the following problems:
 
