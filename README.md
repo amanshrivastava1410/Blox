@@ -24,9 +24,11 @@ Please find below the mandatory **Question 1:**
 **d. What were interesting aspects where you copied code from Stack Overflow?**
 
 **Answer:** Throughout the development process, I found Stack Overflow to be an invaluable resource for solving specific problems. Some of the key areas where I used Stack Overflow code snippets include:
+
            - Video Conferencing Integration
            - Handling Form Validation in React
            - JWT Authentication and Token Expiry Handling
+
 These solutions helped me implement complex features efficiently, saving time and avoiding potential errors.
 
 **e. What did you learn from some very specific copy-paste? Mention explicitly some of them.**
@@ -45,17 +47,17 @@ Answer: Java code provides a utility class JsonParserUtility that can parse a va
 
 **Question 5:** Banking - Simulating money transfer between two different banks.
 
-1. What are the issues in such a system?
-Answer: In a distributed banking system where money is transferred between different banks, there are various challenges:
+**1.** What are the issues in such a system?
+**Answer:** In a distributed banking system where money is transferred between different banks, there are various challenges:
 
                          - Network Latency anConnectivity Issues: The communication between the banks may suffer due to network failures, slow connections or server breakdowns which can delay transactions.
                          - Atomicity: Ensuring that the transfer is atomic is a crucial challenge. If only one operation succeeds, it would lead to inconsistencies and errors in the system.
                          - Data Integrity: Ensuring that the money is correctly transferred without being lost or duplicated is critical. Any inconsistencies in the data would cause financial errors.
                          - Security: Transferring money between accounts on different systems involves the risk of unauthorized access, hacking, and data breaches. Sensitive information like bank account details, passwords, and transaction amounts need to be encrypted to protect the privacy and security of users.
 
-3. What can we do to mitigate some of the issues?
+**3.** What can we do to mitigate some of the issues?
 
-Answer: To mitigate these issues, there are multiple strategies we can follow like Transaction Logs and Recovery Mechanism, Distributed Locking Mechanisms, Two-Phase Commits, Redundancy and Fault Tolerance and Encryption and Authentication. 
+**Answer:** To mitigate these issues, there are multiple strategies we can follow like Transaction Logs and Recovery Mechanism, Distributed Locking Mechanisms, Two-Phase Commits, Redundancy and Fault Tolerance and Encryption and Authentication. 
 
 ## Installation Instructions
 ### Clone the repository
