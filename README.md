@@ -25,7 +25,9 @@ These solutions helped me implement complex features efficiently, saving time an
 
 **e. What did you learn from some very specific copy-paste? Mention explicitly some of them.**
 **Answer:** The specific code I copied from Stack Overflow was instrumental in enhancing my understanding of core concepts and refining the functionality of the platform. 
+
              Some of the key takeaways include:
+             
                **- MongoDB Atlas Configuration:** I learned how to securely configure MongoDB Atlas using environment variables for sensitive information like database URI and credentials. This approach not only ensured a secure connection but also taught me how to manage cloud database connections efficiently.
                **- JWT Authentication:** Through the code snippets I copied, I gained a deep understanding of how to handle secure JWT-based user authentication. I learned the importance of signing tokens with a secret key, managing token expiration, and verifying tokens during each request to ensure user safety.
               **- Multer for File Uploads:** Using Multer for file uploads taught me how to handle large file submissions efficiently and handle edge cases like file size limits and improper formats. I also understood the significance of validating files before processing them.
@@ -37,13 +39,14 @@ Answer: Java code provides a utility class JsonParserUtility that can parse a va
 **Question 5:** Banking - Simulating money transfer between two different banks.
 
 1. What are the issues in such a system?
-Answer: In a distributed banking system where money is transferred between different banks, there are various challenges: 
+Answer: In a distributed banking system where money is transferred between different banks, there are various challenges:
+
                          **- Network Latency anConnectivity Issues:** The communication between the banks may suffer due to network failures, slow connections or server breakdowns which can delay transactions.
                          **- Atomicity:** Ensuring that the transfer is atomic is a crucial challenge. If only one operation succeeds, it would lead to inconsistencies and errors in the system.
                          **- Data Integrity:** Ensuring that the money is correctly transferred without being lost or duplicated is critical. Any inconsistencies in the data would cause financial errors.
                          **- Security:** Transferring money between accounts on different systems involves the risk of unauthorized access, hacking, and data breaches. Sensitive information like bank account details, passwords, and transaction amounts need to be encrypted to protect the privacy and security of users.
 
-2. What can we do to mitigate some of the issues?
+3. What can we do to mitigate some of the issues?
 Answer: To mitigate these issues, there are multiple strategies we can follow like Transaction Logs and Recovery Mechanism, Distributed Locking Mechanisms, Two-Phase Commits, Redundancy and Fault Tolerance and Encryption and Authentication. 
 
 ## Installation Instructions
